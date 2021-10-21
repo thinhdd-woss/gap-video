@@ -22,7 +22,7 @@ function main() {
     srcFiles = sortItems(srcFiles);
     segments = getSegments();
     console.log(segments);
-    // handleVideos(segments);
+    handleVideos(segments);
 }
 
 function sortItems(array) {
